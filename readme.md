@@ -62,6 +62,10 @@ Here is the description of the above snippet to understand this automation much 
 
 - Row 4: Associate permissions set `AuditorsPolicy` and group `AuditorsGroup` on `ALL` accounts in an organization except management account of an organization.
 
+>Please note, this program is stateless,
+meaning it won't impact any other associations of permission sets and users/groups to AWS accounts.
+It just considers data from Excel sheet and perform associations/de-associations accordingly.
+
 **Step 3: Update AWS account details in the program file**
 To execute this automation, we have to update AWS resource details in a configuration file. You can find this configuration file in the code at path `config/aws_properties.py`
 Please refer following snippet and the comments on each property for your reference
