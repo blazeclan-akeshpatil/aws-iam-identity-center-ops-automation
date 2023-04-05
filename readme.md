@@ -90,6 +90,6 @@ To execute the program, go to root directory of the project and execute followin
 python local_handler.py 
 ```
 
-This program print all the actions performed during execution, and you can expect logs like below
+This program prints all the actions performed during execution, and you can expect logs like below
 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2dlm6do3gut6ytfpmjtn.png)
